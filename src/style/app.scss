@@ -103,7 +103,7 @@ header {
 	}
 }
 .content {
-	background: url(..../img/body-bg.png) no-repeat 0px 88px;
+	background: url(../img/body-bg.png) no-repeat 0px 88px;
 }
 .slogan-b {
 	position: relative;
@@ -120,7 +120,7 @@ header {
 		&:before {
 			content: '';
 			display: block;
-			background: url(..../img/wave.png) no-repeat;
+			background: url(../img/wave.png) no-repeat;
 			width: 103px;
 			height: 10px;
 			margin-bottom: 44px;
@@ -304,7 +304,7 @@ h2 {
 		top: -20px;
 		cursor: pointer;
 		span {
-			background: url(..../img/close.png) no-repeat;
+			background: url(../img/close.png) no-repeat;
 			width: 47px;
 			height: 47px;
 			display: block;
@@ -330,7 +330,7 @@ h2 {
 .larger-font {font-size: 18px;color: #000;}
 .light-text {color: #7e7e7e;}
 .contacts {
-	background: url(..../img/contact-map.png) no-repeat;
+	background: url(../img/contact-map.png) no-repeat;
 	padding-top: 86px;
 	    min-height: 620px;
 	    background-size: cover;
@@ -358,13 +358,13 @@ h2 {
 		}
 	}
 	.grey-head {
-		background: #f7f7f7 url(..../img/req-arrow.png) no-repeat 106px center;
+		background: #f7f7f7 url(../img/req-arrow.png) no-repeat 106px center;
 		padding: 10px;
 		@include breakpoint(medium down) {
-              	background: #f7f7f7 url(..../img/req-arrow.png) no-repeat 60px center;
+              	background: #f7f7f7 url(../img/req-arrow.png) no-repeat 60px center;
         }
         @include breakpoint(small down) {
-              	background: #f7f7f7 url(..../img/req-arrow.png) no-repeat 40px center;
+              	background: #f7f7f7 url(../img/req-arrow.png) no-repeat 40px center;
         }
 	}
 }
@@ -411,7 +411,7 @@ footer {
 	}
 }
 .sub-head {
-	background: url(..../img/flor-bg.png) no-repeat;
+	background: url(../img/flor-bg.png) no-repeat;
 	background-size: cover;
 	color:#fff;
 	padding: 95px 0;
@@ -429,7 +429,7 @@ footer {
 			}
 			.number {
 				&:after {
-						background: url(..../img/minus.png) no-repeat;
+						background: url(../img/minus.png) no-repeat;
 						content: '';
 					display: inline-block;
 					width: 19px;
@@ -446,14 +446,14 @@ footer {
 			.number{
 				padding-right: 18px;
 				display: inline-block;
-				background: url(..../img/slash.png) no-repeat right 0;
+				background: url(../img/slash.png) no-repeat right 0;
 				font-weight: bold;
 				font-size: 18px;
 				position: relative;
 				&:after {
 					content: '';
 					display: inline-block;
-					background: url(..../img/plus.png) no-repeat;
+					background: url(../img/plus.png) no-repeat;
 					width: 19px;
 					height: 18px;
 					position: absolute;
@@ -557,7 +557,7 @@ footer {
 .slick-slide {position: relative;}
 .slide1 {
 	.slide-img {
-		background: url(..../img/slide-img.png) no-repeat;
+		background: url(../img/slide-img.png) no-repeat;
 		height: 479px;
 		padding:10px;
 		position: relative;
@@ -625,7 +625,7 @@ footer {
 			top: 50%;
 		} 
 		span {
-			background: url(..../img/circle.png) no-repeat;
+			background: url(../img/circle.png) no-repeat;
 			display: inline-block;
 			padding: 20px 30px;
 			text-align: center;
@@ -664,10 +664,10 @@ footer {
 		}
 	.img-b {
 		min-height: 253px;
-		&.one {background: url(..../img/item-1.png) no-repeat;background-size: cover;}
-		&.two {background: url(..../img/item-2.png) no-repeat;background-size: cover;}
-		&.three {background: url(..../img/item-3.png) no-repeat;background-size: cover;}
-		&.four {background: url(..../img/item-4.png) no-repeat;background-size: cover;}
+		&.one {background: url(../img/item-1.png) no-repeat;background-size: cover;}
+		&.two {background: url(../img/item-2.png) no-repeat;background-size: cover;}
+		&.three {background: url(../img/item-3.png) no-repeat;background-size: cover;}
+		&.four {background: url(../img/item-4.png) no-repeat;background-size: cover;}
 	}
 	.h-block {
 		background: rgba(0, 0, 0, 0.5);
@@ -680,7 +680,7 @@ footer {
 		height: 100%;
 	}
 	.bord-b {
-		background: url(..../img/item-b.png) no-repeat;
+		background: url(../img/item-b.png) no-repeat;
 		height: 100px;
 		position: absolute;
 	    bottom: 9px;
