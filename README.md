@@ -9,7 +9,11 @@
   <li>HTML5</li>
   <li>CSS3 (SASS)</li>
   <li>Zurb Foundation</li>
-  <li>jQuery 3</li>
+  <li>jQuery 3
+  <ul>
+        <li><a href="https://github.com/kenwheeler/slick" target="_blank">slick is a responsive carousel</a></li>
+      </ul>
+  </li>
   <li>GULP</li>
   <li>WebPack</li>
 </ul>
